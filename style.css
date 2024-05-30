@@ -1,0 +1,76 @@
+div {
+    border: 2px solid black; /* Border style */
+    padding-bottom: 20px; /* Padding to create space between the border and content */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+    width: 35%; /* Adjust width to fit content */
+    margin-bottom: 20px; /* Add some margin below the container */
+    margin: 50 px center ;    
+}
+
+ table{
+    border-spacing: 0; /*set border spacing to 0*/
+    border: 2px;
+ }
+.center-align {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.center-align {
+    text-align: center;
+}
+  
+
+/* css for the first table*/
+.first-table {
+    border: 2px solid black; /* Border style */
+    padding-bottom: 20px; /* Padding to create space between the border and content */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 40%; /* Adjust width to fit content */
+    height: 50%;
+    margin-bottom: 20px; /* Add some margin below the container */
+    margin: 50 px center ;
+    border-spacing: 0;  
+}
+.first-table th, .first-table td {
+    border: 1px solid black; 
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px; /* Adjust padding to reduce cell height */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Show ellipsis for overflow content */
+}
+
+
+th {
+    background-color: yellow;
+    color:black;
+}
+
+
+/* Apply background color to alternate rows */
+tr:nth-child(even) {
+    background-color: yellow ;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+/* Override background color for uncolored cells */ 
+tr
+.uncolored {
+    background-color: white;
+}
+
+tr
+.right-align {
+    text-align: right;
+}
